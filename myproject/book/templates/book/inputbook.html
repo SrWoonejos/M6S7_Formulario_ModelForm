@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Libro</title>
+    <title>Agregar Libro</title>
 </head>
 <body>
-    <h1>Ingrese los datos del libro</h1>
+    <h1>Agregar un Libro</h1>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Enviar</button>
+        <button type="submit">Guardar</button>
     </form>
 </body>
 </html>

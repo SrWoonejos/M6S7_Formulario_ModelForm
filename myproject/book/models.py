@@ -7,4 +7,4 @@ class Book(models.Model):
     valor = models.IntegerField()
 
     def __str__(self):
-        return self.titulo
+        return f"{self.titulo} - {self.autor}"
